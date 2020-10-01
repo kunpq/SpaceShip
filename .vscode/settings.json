@@ -8,8 +8,14 @@
 
      // Controls whether suggestions should be accepted on commit characters. For example, in JavaScript, the semi-colon (`;`) can be a commit character that accepts a suggestion and types that character.
     "editor.acceptSuggestionOnCommitCharacter": true,
+<<<<<<< HEAD
     // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
     "editor.acceptSuggestionOnEnter": "smart",
+=======
+
+    // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
+    "editor.acceptSuggestionOnEnter": "on",
+>>>>>>> 7cdb07eeeb31e9d7b836e95c3712dad19af3ad28
 
     // Controls the delay in ms after which quick suggestions will show up.
     "editor.quickSuggestionsDelay": 10,
@@ -38,5 +44,9 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true, 
     "python.linting.pylintArgs": [ "----extension-pkg-whitelist=1xml" ],//pygame中init问题
+<<<<<<< HEAD
     "python.autoComplete.addBrackets": false,
+=======
+    "python.autoComplete.addBrackets": true,
+>>>>>>> 7cdb07eeeb31e9d7b836e95c3712dad19af3ad28
 }
