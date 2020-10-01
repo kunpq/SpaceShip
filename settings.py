@@ -32,7 +32,6 @@ class Settings():
         #fleet_direction:1向右,-1向左
         self.fleet_direction = 1
         
-<<<<<<< HEAD
         
 =======
 >>>>>>> 7cdb07eeeb31e9d7b836e95c3712dad19af3ad28
