@@ -18,6 +18,7 @@ def run_game():
     bullets = Group()
     aliens = Group()
 
+
     # 创建外星人群
     gf.create_fleet(ai_settings, screen, ship, aliens)
     pygame.display.set_caption("Alien Invasion")
