@@ -38,5 +38,6 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true, 
     "python.linting.pylintArgs": [ "----extension-pkg-whitelist=1xml" ],//pygame中init问题
-    "python.autoComplete.addBrackets": false,
+    "python.autoComplete.addBrackets": true,
+    "python.analysis.completeFunctionParens": true,
 }
